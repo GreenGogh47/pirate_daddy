@@ -230,19 +230,89 @@
           null
         ]
       },
-      "/Users/braddunlap/Desktop/turing_work/pirate_daddy/config/initializers/twilio.rb": {
+      "/Users/braddunlap/Desktop/turing_work/pirate_daddy/spec/factories/users.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/braddunlap/Desktop/turing_work/pirate_daddy/config/routes.rb": {
         "lines": [
           null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/braddunlap/Desktop/turing_work/pirate_daddy/app/helpers/application_helper.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null
+        ]
+      },
+      "/Users/braddunlap/Desktop/turing_work/pirate_daddy/app/models/user.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/braddunlap/Desktop/turing_work/pirate_daddy/app/models/application_record.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/braddunlap/Desktop/turing_work/pirate_daddy/spec/services/insult_service_spec.rb": {
+        "lines": [
           1,
           null,
           1,
           1,
-          0,
-          0,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/braddunlap/Desktop/turing_work/pirate_daddy/app/services/insult_service.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
           null
         ]
       }
     },
-    "timestamp": 1685992827
+    "timestamp": 1685994189
   }
 }
