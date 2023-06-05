@@ -1,5 +1,9 @@
 # app/controllers/users_controller.rb
 class UsersController < ApplicationController
+  def send_sms_form
+    # Renders the form view for sending an SMS
+  end
+
   def send_sms
     phone_number = params[:phone_number]
     insult = InsultService.new.get_insult
@@ -10,7 +14,6 @@ class UsersController < ApplicationController
   end
 
   private
-  
 
   def send_sms_message(phone_number, message)
     client = Twilio::REST::Client.new(ENV['TWILIO_ACCOUNT_SID'], ENV['TWILIO_AUTH_TOKEN'])

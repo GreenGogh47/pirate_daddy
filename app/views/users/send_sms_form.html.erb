@@ -1,0 +1,13 @@
+<!-- app/views/users/send_sms.html.erb -->
+<h1>Ahoy Hoy!</h1>
+<h2>Insult your mateys!</h2>
+
+<%= form_tag(send_sms_path, method: :post) do %>
+  <div>
+    <%= label_tag 'Phone Number' %>
+    <%= text_field_tag 'phone_number' %>
+  </div>
+  <div>
+    <%= submit_tag 'YARRRRR!' %>
+  </div>
+<% end %>
