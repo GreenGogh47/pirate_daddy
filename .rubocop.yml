@@ -1,0 +1,20 @@
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+# This will standardize indentation to 2 spaces (1 tab).
+Layout/IndentationStyle:
+  IndentationWidth: 2
+
+#This will flag unused method arguments as an offense.
+Lint/UnusedMethodArgument:
+  Enabled: true
+
+# This will flag lines longer than 150 characters as an offense.
+Layout/LineLength:
+  Max: 150
+
+# This will flag variables that are not snake_case as an offense.
+# Naming a variable as a single underscore is allowed.
+Naming/VariableName:
+  EnforcedStyle: snake_case
+  AllowedVariables: ['_']
