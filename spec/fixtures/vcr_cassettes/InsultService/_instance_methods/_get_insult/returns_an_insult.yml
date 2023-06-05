@@ -21,24 +21,24 @@ http_interactions:
       Content-Type:
       - text/plain; charset=utf-8
       Content-Length:
-      - '82'
+      - '85'
       Connection:
       - keep-alive
       Date:
-      - Mon, 05 Jun 2023 19:16:14 GMT
+      - Mon, 05 Jun 2023 20:00:14 GMT
       Apigw-Requestid:
-      - GD0jyhKQPHcESSg=
+      - GD7AXiH7vHcESIw=
       X-Cache:
       - Miss from cloudfront
       Via:
-      - 1.1 f6d641e44b5f98899da25792ac166784.cloudfront.net (CloudFront)
+      - 1.1 01b6e75b22243ae76d6d282c014927c6.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - DEN50-C1
+      - JFK50-P3
       X-Amz-Cf-Id:
-      - UYhcb1fByv85xi-kBqc9hIjNbhcjTvyEBWf2JNwUjB_Y6ok3mUnUSg==
+      - NfZvCkP40HsDSjYZkS-qx6JTyRRKHxF1mpLOpo4I7I3420Im58VTfA==
     body:
       encoding: UTF-8
-      string: Enough wit' yer bilge, ye lice-infested, craven simpleton! ... Walk
-        the gangplank!
-  recorded_at: Mon, 05 Jun 2023 19:16:14 GMT
+      string: It's the locker for ye, ye lily-livered, wretched codfish! ... Hoist
+        the Jolly Roger!
+  recorded_at: Mon, 05 Jun 2023 20:00:14 GMT
 recorded_with: VCR 6.1.0
