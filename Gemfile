@@ -51,6 +51,7 @@ gem "bootsnap", require: false
 # gem "image_processing", "~> 1.2"
 
 gem "faraday"
+gem "figaro"
 gem "jsonapi-serializer"
 gem "rubocop", require: false
 gem "twilio-ruby"
@@ -67,6 +68,7 @@ group :development, :test do
   gem "simplecov"
   gem "vcr"
   gem "webmock"
+  gem "simplecov"
 end
 
 group :development do
