@@ -1,13 +1,96 @@
 <!-- app/views/users/send_sms.html.erb -->
-<h1>Ahoy Hoy!</h1>
-<h2>Insult your mateys!</h2>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pirate Insults</title>
+  <style>
+    body {
+      background-image: url("https://img.freepik.com/free-vector/old-broken-pirate-ship-after-shipwreck-beach_107791-14739.jpg?w=740&t=st=1685997021~exp=1685997621~hmac=9b97de61356dd1c4824f6f3aaffdc85d7a3db00548af8fe4069db64cd8bc5cd4");
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: #D9F7F2;
+      text-align: center;
+      font-family: 'Arial', sans-serif;
+    }
 
-<%= form_tag(send_sms_path, method: :post) do %>
-  <div>
-    <%= label_tag 'Phone Number' %>
-    <%= text_field_tag 'phone_number' %>
-  </div>
-  <div>
-    <%= submit_tag 'YARRRRR!' %>
-  </div>
-<% end %>
+    h1 {
+      font-size: 40px;
+      margin-top: 100px;
+      text-shadow: 2px 2px 4px #000000;
+      display: inline-block;
+      padding: 10px;
+    }
+
+    h1 span {
+      border: 1px solid black;
+      padding: 5px;
+      border-radius: 5px;
+    }
+
+    h2 {
+      font-size: 30px;
+      margin-bottom: 50px;
+      text-shadow: 2px 2px 4px #000000;
+      display: inline-block;
+      padding: 10px;
+    }
+
+    h2 span {
+      border: 1px solid black;
+      padding: 5px;
+      border-radius: 5px;
+    }
+
+    form {
+      display: inline-block;
+      background-color: #394e64;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 50px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input[type="text"] {
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: none;
+      width: 250px;
+    }
+
+    input[type="submit"] {
+      padding: 10px 20px;
+      font-size: 18px;
+      background-color: #c1663e;
+      color: white;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #d57d59;
+    }
+  </style>
+</head>
+<body>
+  <h1>Ahoy Hoy!</h1>
+	<br>
+  <h2>Insult your mateys!</h2>
+	<br>
+
+  <%= form_tag(send_sms_path, method: :post) do %>
+    <div>
+      <%= label_tag 'Phone Number' %>
+      <%= text_field_tag 'phone_number' %>
+    </div>
+    <div>
+      <%= submit_tag 'YARRRRR!' %>
+    </div>
+  <% end %>
+</body>
+</html>
