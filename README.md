@@ -98,7 +98,7 @@
 
 # Goals
 
-tea_shop was crafted to satisfy the requirements for The Turing Mod 4 **Take-Home Project**. See the official project requirements [here](https://mod4.turing.edu/projects/take_home/).
+Pirate Daddy was crafted to satisfy the requirements for The Turing Mod 4 **Take-Home Project**. See the official project requirements [here](https://mod4.turing.edu/projects/take_home/).
 
 ## Acknowledgments
 
