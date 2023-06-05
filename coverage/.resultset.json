@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/braddunlap/Desktop/turing_work/pirate_daddy/config/environment.rb": {
+      "/Users/davidmarino/Desktop/4_mod/projects/pirate_daddy/config/environment.rb": {
         "lines": [
           null,
           null,
@@ -12,7 +12,7 @@
           1
         ]
       },
-      "/Users/braddunlap/Desktop/turing_work/pirate_daddy/config/application.rb": {
+      "/Users/davidmarino/Desktop/4_mod/projects/pirate_daddy/config/application.rb": {
         "lines": [
           null,
           null,
@@ -55,7 +55,7 @@
           null
         ]
       },
-      "/Users/braddunlap/Desktop/turing_work/pirate_daddy/config/boot.rb": {
+      "/Users/davidmarino/Desktop/4_mod/projects/pirate_daddy/config/boot.rb": {
         "lines": [
           null,
           null,
@@ -65,7 +65,7 @@
           1
         ]
       },
-      "/Users/braddunlap/Desktop/turing_work/pirate_daddy/config/environments/test.rb": {
+      "/Users/davidmarino/Desktop/4_mod/projects/pirate_daddy/config/environments/test.rb": {
         "lines": [
           null,
           null,
@@ -131,7 +131,7 @@
           null
         ]
       },
-      "/Users/braddunlap/Desktop/turing_work/pirate_daddy/config/initializers/assets.rb": {
+      "/Users/davidmarino/Desktop/4_mod/projects/pirate_daddy/config/initializers/assets.rb": {
         "lines": [
           null,
           null,
@@ -149,7 +149,7 @@
           null
         ]
       },
-      "/Users/braddunlap/Desktop/turing_work/pirate_daddy/config/initializers/content_security_policy.rb": {
+      "/Users/davidmarino/Desktop/4_mod/projects/pirate_daddy/config/initializers/content_security_policy.rb": {
         "lines": [
           null,
           null,
@@ -160,41 +160,6 @@
           null,
           null,
           null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/braddunlap/Desktop/turing_work/pirate_daddy/config/initializers/filter_parameter_logging.rb": {
-        "lines": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/braddunlap/Desktop/turing_work/pirate_daddy/config/initializers/inflections.rb": {
-        "lines": [
           null,
           null,
           null,
@@ -214,7 +179,42 @@
           null
         ]
       },
-      "/Users/braddunlap/Desktop/turing_work/pirate_daddy/config/initializers/permissions_policy.rb": {
+      "/Users/davidmarino/Desktop/4_mod/projects/pirate_daddy/config/initializers/filter_parameter_logging.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/davidmarino/Desktop/4_mod/projects/pirate_daddy/config/initializers/inflections.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/davidmarino/Desktop/4_mod/projects/pirate_daddy/config/initializers/permissions_policy.rb": {
         "lines": [
           null,
           null,
@@ -230,7 +230,7 @@
           null
         ]
       },
-      "/Users/braddunlap/Desktop/turing_work/pirate_daddy/spec/factories/users.rb": {
+      "/Users/davidmarino/Desktop/4_mod/projects/pirate_daddy/spec/factories/users.rb": {
         "lines": [
           1,
           1,
@@ -245,11 +245,106 @@
           null
         ]
       },
-      "/Users/braddunlap/Desktop/turing_work/pirate_daddy/config/routes.rb": {
+      "/Users/davidmarino/Desktop/4_mod/projects/pirate_daddy/config/routes.rb": {
         "lines": [
           null,
           null,
           1,
+          null,
+          null,
+          null,
+          1,
+          null
+        ]
+      },
+      "/Users/davidmarino/Desktop/4_mod/projects/pirate_daddy/app/helpers/application_helper.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null
+        ]
+      },
+      "/Users/davidmarino/Desktop/4_mod/projects/pirate_daddy/spec/models/user_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/davidmarino/Desktop/4_mod/projects/pirate_daddy/app/models/user.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/davidmarino/Desktop/4_mod/projects/pirate_daddy/app/models/application_record.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/davidmarino/Desktop/4_mod/projects/pirate_daddy/spec/services/insult_service_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/davidmarino/Desktop/4_mod/projects/pirate_daddy/app/services/insult_service.rb": {
+        "lines": [
+          1,
+          1,
+          7,
+          7,
+          null,
+          null,
+          1,
+          7,
+          7,
+          null,
+          null
+        ]
+      },
+      "/Users/davidmarino/Desktop/4_mod/projects/pirate_daddy/app/controllers/users_controller.rb": {
+        "lines": [
+          null,
+          1,
+          1,
+          6,
+          6,
+          null,
+          6,
+          null,
+          6,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          6,
+          null,
+          6,
+          null,
           null,
           null,
           null,
@@ -257,62 +352,15 @@
           null
         ]
       },
-      "/Users/braddunlap/Desktop/turing_work/pirate_daddy/app/helpers/application_helper.rb": {
+      "/Users/davidmarino/Desktop/4_mod/projects/pirate_daddy/app/controllers/application_controller.rb": {
         "lines": [
           null,
           null,
           1,
-          null
-        ]
-      },
-      "/Users/braddunlap/Desktop/turing_work/pirate_daddy/app/models/user.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/Users/braddunlap/Desktop/turing_work/pirate_daddy/app/models/application_record.rb": {
-        "lines": [
-          null,
-          null,
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/braddunlap/Desktop/turing_work/pirate_daddy/spec/services/insult_service_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/braddunlap/Desktop/turing_work/pirate_daddy/app/services/insult_service.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
           null
         ]
       }
     },
-    "timestamp": 1685994189
+    "timestamp": 1685995215
   }
 }

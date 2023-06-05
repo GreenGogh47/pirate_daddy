@@ -2,8 +2,7 @@
 class UsersController < ApplicationController
   def send_sms
     phone_number = params[:phone_number]
-    insult = SERVICE CALL
-
+    insult = InsultService.new.get_insult
     # Use Twilio to send the insult to the provided phone number
     send_sms_message(phone_number, insult)
 
